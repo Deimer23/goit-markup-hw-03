@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+body {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding-left: 50px; */
+  /* padding-right: 20px; */
+  background: #ffffff;
+  margin-bottom: 10px; 
+  /* padding-left: 10%; */
+}
+.logo a {
+  font-family: "raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.menu ul li a {
+  color: #09180b;
+}
+.menu ul li a:hover {
+  color: #2196f3;
+}
+.menu ul li a:focus {
+  color: #2196f3;
+}
+.logo a:hover {
+  color: #09180b;
+}
+.logo a:focus {
+  color: #09180b;
+}
+a {
+  text-decoration: none;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 10px;
+  /* padding-right: 10px; */
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px; 
+}
+.contact p:hover {
+  color: #2196f3;
+}
+.index-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-title {
+  display: flex;
+  flex-direction: column;
+  background: #2f303a;
+  align-items: center;
+  padding-bottom: 20px;
+  width: 1200px;
+}
+.title {
+  width: 700px;
+  font-family: "Roboto", sans-serif;  
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button {
+  height: 50px;
+  background: #2193f3;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+.button:hover {
+  background: #e5e5e5;
+  color: #2196f3;
+  cursor: pointer;
+}
+.button:focus {
+  background: #e5e5e5;
+  color: #2196f3;
+}  
+.skills ul li{
+    display: inline;   
+}
+.skills ul{
+    display: flex;
+    flex-direction: row;       
+}
+.skills{
+    width: 800px;
+}
+.our-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  /* margin: 0 auto; */
+}
+.our-work-1 {
+  display: flex;
+  flex-direction: row;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.team-content {
+  display: flex;
+  flex-direction: row;   
+}
+.team-content p {
+  text-align: center;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  background: #2f303a;
+  padding-left: 100px;  
+}
+.direction p:hover{
+    color: #2196f3;
+}
+.direction p{
+    color: #ffffff;
+}
+.logo-down a:focus{
+    color: #ffffff;
+}
+
+
+
+/* CSS DE LA PÁGINA PORTAFOLIO */
+
+.portafolio-main{
+    display: flex;
+    flex-direction:column;    
+    align-items: center;
+    justify-content: center;
+}
+.menu-second ul li{
+    display: inline-block;
+    background-color: #F5F4FA;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.menu-second ul li:hover{
+    background-color: #2193f3;
+}
+.menu-second ul li a:hover{
+    color: #F5F4FA;
+}
+
+.portafolio{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 5px;    
+}
+.social-media{
+    margin-left: 70px;
+    /* margin-top: 10px; */
+}
+.social-media h4{
+    color: white;
+}
+
