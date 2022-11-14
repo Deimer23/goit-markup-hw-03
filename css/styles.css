@@ -1,23 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 body {
   background: #e5e5e5;
   font-family: "Roboto", sans-serif;
-  
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
 }
 .top-line {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  /* padding-left: 50px; */
-  /* padding-right: 20px; */
+  justify-content: space-evenly; 
   background: #ffffff;
-  margin-bottom: 10px; 
-  /* padding-left: 10%; */
+  margin-bottom: 10px;  
 }
 .logo a {
   font-family: "raleway", sans-serif;
@@ -47,18 +39,17 @@ a {
 }
 .menu ul li {
   display: inline-block;
-  padding: 10px;
-  /* padding-right: 10px; */
+  padding: 10px; 
 }
 .contact {
   display: flex;
   flex-direction: row;
-  column-gap: 10px; 
+  column-gap: 10px;
 }
 .contact p:hover {
   color: #2196f3;
 }
-.index-main{
+.index-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,11 +60,11 @@ a {
   background: #2f303a;
   align-items: center;
   padding-bottom: 20px;
-  width: 1200px;
+  width: 100%;
 }
 .title {
   width: 700px;
-  font-family: "Roboto", sans-serif;  
+  font-family: "Roboto", sans-serif;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -104,24 +95,19 @@ a {
 .button:focus {
   background: #e5e5e5;
   color: #2196f3;
-}  
-.skills ul li{
-    display: inline;   
 }
-.skills ul{
-    display: flex;
-    flex-direction: row;    
-    column-gap: 5px;   
+.skills ul li {
+  display: inline;
 }
-.skills{
-    width: 800px;
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
 }
 .our-work {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 800px;
-  /* margin: 0 auto; */
+  align-items: center; 
 }
 .our-work-1 {
   display: flex;
@@ -130,65 +116,62 @@ a {
 .team {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 .team-content {
   display: flex;
-  flex-direction: row;   
+  flex-direction: row;
 }
 .team-content p {
   text-align: center;
 }
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   background: #2f303a;
-  padding-left: 100px;  
+  padding-left: 100px;
 }
-.direction p:hover{
-    color: #2196f3;
+.direction p:hover {
+  color: #2196f3;
 }
-.direction p{
-    color: #ffffff;
+.direction p {
+  color: #ffffff;
 }
-.logo-down a:focus{
-    color: #ffffff;
+.logo-down a:focus {
+  color: #ffffff;
 }
-
-
 
 /* CSS DE LA PÁGINA PORTAFOLIO */
 
-.portafolio-main{
-    display: flex;
-    flex-direction:column;    
-    align-items: center;
-    justify-content: center;
+.portafolio-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.menu-second ul li{
-    display: inline-block;
-    background-color: #F5F4FA;
-    padding: 8px;
-    border-radius: 4px;
-}
-
-.menu-second ul li:hover{
-    background-color: #2193f3;
-}
-.menu-second ul li a:hover{
-    color: #F5F4FA;
+.menu-second ul li {
+  display: inline-block;
+  background-color: #f5f4fa;
+  padding: 8px;
+  border-radius: 4px;
 }
 
-.portafolio{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    gap: 5px;    
+.menu-second ul li:hover {
+  background-color: #2193f3;
 }
-.social-media{
-    margin-left: 70px;
-    /* margin-top: 10px; */
-}
-.social-media h4{
-    color: white;
+.menu-second ul li a:hover {
+  color: #f5f4fa;
 }
 
+.portafolio {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 5px;
+}
+.social-media {
+  margin-left: 70px;
+  /* margin-top: 10px; */
+}
+.social-media h4 {
+  color: white;
+}
