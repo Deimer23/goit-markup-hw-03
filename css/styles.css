@@ -59,8 +59,7 @@ a {
   flex-direction: column;
   background: #2f303a;
   align-items: center;
-  padding-bottom: 20px;
-  width: 100%;
+  padding-bottom: 20px;  
 }
 .title {
   width: 700px;
