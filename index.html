@@ -18,23 +18,29 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="top-line section">
-      <section class="logo">
-        <p class="logo-top"><a href="#">WebStudio</a></p>
-      </section>
-      <section class="menu">
+    <header class="top-line">      
+      <div class="container">        
         <nav>
+          <p class="logo-top logo"><a href="#">WebStudio</a></p>
           <ul class="menu-nav">
             <li><a href="studio.html" target="_parent">Estudios</a></li>
             <li><a href="portafolio.html" target="_parent">Portafolio</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
-        </nav>
-      </section>
-      <section class="contact">
-        <p class="email">info@devstudio.com</p>
-        <p class="phone">+52 55 5529 6000</p>
-      </section>
+        </nav>  
+        <ul class="contacts-menu">
+          <li>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z" fill="#2196F3"/>
+            </svg>
+             info@devstudio.com
+          </li>
+          <li><svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z" fill="#757575"/>
+            </svg>
+             +52 55 5529 6000</li>
+        </ul>                
+      </div>
     </header>
     <main class="index-main">
       <section class="content-title">
@@ -42,122 +48,102 @@
         <button class="button" type="button">Solicite nuestro servicio</button>
       </section>
       <section class="skills">
-        <ul>
-          <li>
-            <h5>ATENCIÓN A LOS DETALLES</h5>
-            <p>
-              Nos adentramos en todos los detalles y procesos de su negocio,
-              para así desarrollar una solución a su medida.
-            </p>
-          </li>
-          <li>
-            <h5>PUNTUALIDAD</h5>
-            <p>
-              Con nosotros, usted puede sentirse seguro y protegido. Un
-              principio importante de la empresa: respetar su tiempo y respetar
-              los plazos acordados.
-            </p>
-          </li>
-          <li>
-            <h5>PLANIFICACIÓN</h5>
-            <p>
-              Usted podrá observar y participar en cada fase del desarrollo y
-              aplicación de soluciones.
-            </p>
-          </li>
-          <li>
-            <h5>TEGNOLOGÍA MODERNA</h5>
-            <p>
-              Usamos herramientas innovadoras para resolver las tareas
-              asignadas. Es hora de simplificar los procesos laborales..
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul>
+            <li>
+              <h5>ATENCIÓN A LOS DETALLES</h5>
+              <p>
+                Nos adentramos en todos los detalles y procesos de su negocio,
+                para así desarrollar una solución a su medida.
+              </p>
+            </li>
+            <li>
+              <h5>PUNTUALIDAD</h5>
+              <p>
+                Con nosotros, usted puede sentirse seguro y protegido. Un
+                principio importante de la empresa: respetar su tiempo y respetar
+                los plazos acordados.
+              </p>
+            </li>
+            <li>
+              <h5>PLANIFICACIÓN</h5>
+              <p>
+                Usted podrá observar y participar en cada fase del desarrollo y
+                aplicación de soluciones.
+              </p>
+            </li>
+            <li>
+              <h5>TEGNOLOGÍA MODERNA</h5>
+              <p>
+                Usamos herramientas innovadoras para resolver las tareas
+                asignadas. Es hora de simplificar los procesos laborales..
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="our-work">
-        <section class="title-work">
+      <section class="our-work">   
+        <div class="container">
           <h2>A qué nos dedicamos</h2>
-        </section>
-        <section class="our-work-1">
-          <section class="desktop">
-            <a href="#"
-              ><img
-                src="images/pcdesktop.jpg"
-                alt="Computador de Escritorio"
-                width="250px"
-            /></a>
-          </section>
-          <section class="laptop">
-            <a href="#"
-              ><img
-                src="images/laptop.jpg"
-                alt="Computador protatil"
-                width="250px"
-            /></a>
-          </section>
-          <section class="tablet">
-            <a href="#"
-              ><img src="images/Tablet.jpg" alt="Tablet" width="250px"
-            /></a>
-          </section>
-        </section>
+          <ul>
+            <li><img src="images/pcdesktop.jpg" alt="Computador de Escritorio" width="352px"></li>
+            <li><img src="images/laptop.jpg" alt="Computador protatil" width=352px"/></li>
+            <li><img src="images/Tablet.jpg" alt="Tablet" width="352px"/></li>
+          </ul>
+        </div>       
       </section>
+
       <section class="team">
-        <section class="title-team">
+        <div class="container">
           <h2>Nuestro Equipo</h2>
-        </section>
-        <section class="team-content">
-          <section>
-            <img
-              src="images/Andrescubo.jpg"
-              alt="Fotografía de Andres Cubo"
-              width="270"
-            />
-            <p>Andrés Cubo</p>
-            <p>Diseñador de Productos</p>
-          </section>
-          <section>
-            <img
-              src="images/CarlaPalacios.jpg"
-              alt="Fotografía de Carla Palacios"
-              width="270"
-            />
-            <p>Carla Palacios</p>
-            <p>Desarrolladora Frontend</p>
-          </section>
-          <section>
-            <img
-              src="images/Mariodorado.jpg"
-              alt="Fotografía de Mario Dorado"
-              width="270"
-            />
-            <p>Mario Dorado</p>
-            <p>Marketing</p>
-          </section>
-          <section>
-            <img
-              src="images/Pablomijangos.jpg"
-              alt="Fotografía de Pablo Mijangos"
-              width="270"
-            />
-            <p>Pablo Mijangos</p>
-            <p>Diseñador IU</p>
-          </section>
-        </section>
+          <ul>
+            <li>
+              <img src="images/Andrescubo.jpg" alt="Fotografía de Andres Cubo"width="270"/>
+              <p>Andrés Cubo</p>
+              <p>Diseñador de Productos</p>
+            </li>
+            <li>
+              <img src="images/CarlaPalacios.jpg" alt="Fotografía de Carla Palacios" width="270"/>
+              <p>Carla Palacios</p>
+              <p>Desarrolladora Frontend</p>
+            </li>
+            <li>
+              <img src="images/Mariodorado.jpg" alt="Fotografía de Mario Dorado" width="270"/>
+              <p>Mario Dorado</p>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img src="images/Pablomijangos.jpg" alt="Fotografía de Pablo Mijangos" width="270"/>
+              <p>Pablo Mijangos</p>
+              <p>Diseñador IU</p>
+            </li>
+          </ul>
+        </div>          
       </section>
     </main>
-    <footer class="footer section">
-      <section>
-        <section class="logo">
-          <p class="logo-down"><a href="#">WebStudio</a></p>
-        </section>
-        <section class="direction">
-          <p>Calz. Ticomán 500,</p>
-          <p>Ciudad de México, CDMX, México</p>
-          <p>info@example.com</p>
-          <p>+52 55 5529 6000</p>
-        </section>
-      </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p class="logo-down logo"><a href="#">WebStudio</a></p>
+          <address>
+            <ul>
+              <li>Calz. Ticomán 500,</li>
+              <li>Ciudad de México, CDMX, México</li>
+              <li>info@example.com</li>
+              <li>+52 55 5529 6000</li>
+            </ul>
+          </address> 
+        </div>
+         <div>
+          <h4>ENCUENTRENOS EN</h4>
+          <ul class="social-media">
+            <li><img src="images/images-portafolio/instagram.jpg" alt="Logo de instagram"></li>
+            <li><img src="images/images-portafolio/twiter.jpg" alt="Logo de Twiter"></li>
+            <li><img src="images/images-portafolio/facebook.jpg" alt="Logo de Facebook"></li>
+            <li><img src="images/images-portafolio/linkedin.jpg" alt=""></li>
+          </ul>
+         </div>       
+      </div>     
     </footer>
   </body>
 </html>
